@@ -1,0 +1,127 @@
+.main-content {
+  border-top: 0.75px solid #ebebeb;
+  background: #fff;
+  height: 100%;
+}
+
+.date-container {
+  text-align: right;
+  padding: 1.59rem 1.8rem;
+}
+
+.typography-black {
+  color: #1c1c28;
+  font-family: Neo Sans Arabic;
+  font-size: 0.65625rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.typography-gray {
+  color: #a09cb2;
+  font-family: Neo Sans Arabic;
+  font-size: 0.51563rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.typography-light-gray {
+  color: #b4b4b4;
+  /* leading-trim: both;
+  text-edge: cap; */
+  font-family: Neo Sans Arabic;
+  font-size: 0.46875rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+img {
+  margin: -0.3rem 0.5rem;
+}
+
+.date-content {
+  float: left;
+  min-width: 5.8125rem;
+  min-height: 2.20313rem;
+  flex-shrink: 0;
+  padding: 0.3rem;
+  border-radius: 0.51563rem;
+  background: #f7f6fd;
+  text-align: center;
+}
+
+.week-container {
+  width: 100%;
+  border-top: 1px dotted #eeedf2;
+  border-bottom: 1px dotted #eeedf2;
+  margin: 1.92rem 0;
+}
+
+.grid-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.day-container {
+  padding: 0.9rem 0.8rem;
+  text-align: center;
+  margin: 0.5rem 0;
+}
+
+.typography-day-num {
+  color: #1c1c28;
+  /* leading-trim: both;
+  text-edge: cap; */
+  font-family: Inter;
+  font-size: 0.75rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-top: 1.22rem;
+  /* padding-top: 0.5rem; */
+}
+
+.selected-day-container {
+  border-radius: 0.5625rem;
+  background: #feee00;
+  padding: 1rem 0.5rem;
+  margin: -1rem -0.5rem;
+}
+
+.selected-day-circle {
+  width: 1.792rem;
+  height: 1.792rem;
+  background: #292d32;
+  border-radius: 62.438rem;
+  color: #fff;
+  margin-top: 1rem;
+  padding-top: 0.5rem;
+  padding-right: 0.2rem;
+  padding-left: 0.2rem;
+  /* margin: 1 -0.5rem; */
+}
+
+.comments-container {
+  border-radius: 0.65625rem;
+  margin: 0.94rem;
+  padding: 1.08rem;
+  text-align: right;
+}
+
+.comments-container > div {
+  margin: 0 0 0.77rem 0;
+}
+
+.selected-comment {
+  color: #fff !important;
+}
+
+.left-arrow-container {
+  border-radius: 0.70313rem;
+  background: #fff;
+  float: left;
+  padding: 0.51rem;
+}

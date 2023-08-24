@@ -1,0 +1,179 @@
+.main-content {
+  width: 100%;
+}
+
+.container-grid {
+  display: grid;
+  grid-template-columns: 26% 37% 37%;
+  gap: 0.66rem;
+  padding: 0.66rem;
+  text-align: right;
+}
+
+.reads-container {
+  width: 100%;
+  height: 100%;
+}
+
+.reads-col {
+  width: 100%;
+  min-height: auto;
+  max-height: 33%;
+  color: #fff;
+  border-radius: 0.9375rem;
+  display: grid;
+  grid-template-columns: auto auto;
+  margin-bottom: 1.06rem;
+}
+
+.typography-read-container {
+  color: #fff;
+  font-family: Inter;
+  font-size: 1.17188rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 0.02344rem;
+}
+
+.typography-read {
+  color: #fff;
+  font-family: Neo Sans Arabic;
+  font-size: 0.70313rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.02344rem;
+  margin-bottom: 0.77rem;
+}
+
+.typography-2 {
+  color: #1c1c28;
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Poppins;
+  font-size: 1.00706rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 1.00706rem; /* 100% */
+}
+
+.typography-3 {
+  color: #6b7181;
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Neo Sans Arabic;
+  font-size: 0.70494rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.00706rem; /* 142.857% */
+}
+
+.typography-4 {
+  color: #1c1c28;
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Neo Sans Arabic;
+  font-size: 0.72656rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 0.90819rem; /* 125% */
+  float: right;
+}
+
+.stat-container {
+  border-radius: 0.36325rem;
+  border: 0.727px solid var(--stroke, #e7e7e7);
+  background: var(--white, #fff);
+  padding: 1.5rem;
+  display: block;
+  text-align: center;
+  min-height: auto;
+  margin-bottom: 1rem;
+}
+
+.pie {
+  text-align: center;
+  height: 8.46994rem;
+  width: 100%;
+}
+
+.right-stat {
+  border-right: 2.5px solid #fdb841;
+  stroke-width: 2.906px;
+  stroke: #fdb841;
+  text-align: right;
+  padding: 0 0.73rem;
+  color: #1c1c28;
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Poppins;
+  font-size: 0.90819rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 0.90819rem; /* 100% */
+}
+
+.left-stat {
+  border-right: 2.5px solid #0771de;
+  text-align: right;
+  padding: 0 0.73rem;
+
+  color: #1c1c28;
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Poppins;
+  font-size: 0.90819rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 0.90819rem; /* 100% */
+}
+
+.typography-5 {
+  color: #b6baca;
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Neo Sans Arabic;
+  font-size: 0.75rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 0.90819rem; /* 121.094% */
+}
+
+.typography-third-card-1 {
+  color: var(--dmv-black, #23262f);
+  font-family: Neo Sans Arabic;
+  font-size: 0.75rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.875rem; /* 250% */
+  float: right;
+}
+
+.typography-date {
+  color: #787486;
+  font-family: Neo Sans Arabic;
+  font-size: 0.5625rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  float: left;
+  margin-top: 1.2rem;
+  margin-bottom: 1.68rem;
+}
+
+.typography-desc {
+  color: #787486;
+  font-family: Neo Sans Arabic;
+  font-size: 0.5625rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  float: right;
+  text-align: right;
+}
+
+.typography-desc-2 {
+  color: #000;
+  font-family: Inter;
+  font-size: 0.84375rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-top: 0.5rem;
+  margin-bottom: 1.5rem;
+}

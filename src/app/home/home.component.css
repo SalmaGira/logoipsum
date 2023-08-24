@@ -1,0 +1,15 @@
+.home-page {
+  background-color: #f5f5f5;
+  min-height: 100vh;
+  margin: 0;
+}
+
+.main-grid {
+  display: grid;
+  grid-template-columns: auto 15.625rem;
+}
+
+.page-grid {
+  display: grid;
+  grid-template-columns: 24.125rem auto;
+}

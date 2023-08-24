@@ -1,0 +1,351 @@
+<div class="main">
+  <div class="col typography-gray">
+    <div class="setting-icon">
+      <img
+        src="assets/icons/setting-2-light.svg"
+        style="margin-top: 0.3rem; margin-right: 0.3rem"
+      />
+    </div>
+
+    <div>ملفات</div>
+
+    <div>أيام العمل</div>
+
+    <div>البريد الالكتروني</div>
+
+    <div>
+      <img src="assets/icons/arrow-swap.svg" />
+      الاسم بالكامل
+    </div>
+
+    <div>id رقم ال</div>
+  </div>
+
+  <div *ngFor="let item of colItems" class="col typography-black">
+    <div>
+      <img src="assets/icons/Group 1000011386.svg" />
+    </div>
+
+    <div *ngIf="item.src === '1'">
+      <div style="width: 146.3px; height: 28.7px; position: relative">
+        <img
+          style="
+            width: 28px;
+            height: 28px;
+            left: 118.3px;
+            top: 0.7px;
+            position: absolute;
+            border-radius: 4.2px;
+          "
+          src="https://via.placeholder.com/28x28"
+        />
+        <div
+          style="left: 20.7px; top: 0px; position: absolute; text-align: right"
+        >
+          <span
+            style="
+              color: black;
+              font-size: 9.8px;
+              font-family: Neo Sans Arabic;
+              font-weight: 400;
+              line-height: 14.7px;
+              word-wrap: break-word;
+            "
+            >واجهة المستخدم </span
+          ><span
+            style="
+              color: black;
+              font-size: 9.8px;
+              font-family: Inter;
+              font-weight: 500;
+              line-height: 14.7px;
+              word-wrap: break-word;
+            "
+            >.png</span
+          >
+        </div>
+        <div
+          style="
+            left: 92.4px;
+            top: 15.4px;
+            position: absolute;
+            text-align: right;
+            color: rgba(0, 0, 0, 0.4);
+            font-size: 8.4px;
+            font-family: Inter;
+            font-weight: 400;
+            line-height: 12.6px;
+            word-wrap: break-word;
+          "
+        >
+          9mb
+        </div>
+      </div>
+    </div>
+
+    <div *ngIf="item.src === '2'">
+      <div
+        style="
+          width: 138.6px;
+          height: 28px;
+          padding-left: 28.4px;
+          justify-content: flex-end;
+          align-items: center;
+          display: inline-flex;
+        "
+      >
+        <div style="width: 110.2px; height: 28.4px; position: relative">
+          <div
+            style="
+              width: 26.6px;
+              height: 26.6px;
+              padding: 9.42px;
+              left: 83.6px;
+              top: 0.7px;
+              position: absolute;
+              background: rgba(7, 113, 222, 0.1);
+              border-radius: 6.65px;
+              overflow: hidden;
+              flex-direction: column;
+              justify-content: center;
+              align-items: center;
+              gap: 5.54px;
+              display: inline-flex;
+            "
+          >
+            <div style="width: 13.3px; height: 13.3px; position: relative">
+              <div
+                style="
+                  width: 4.43px;
+                  height: 7.87px;
+                  left: 4.43px;
+                  top: 1.11px;
+                  position: absolute;
+                  border: 0.42px #0771de solid;
+                "
+              ></div>
+              <div
+                style="
+                  width: 9.97px;
+                  height: 9.96px;
+                  left: 1.66px;
+                  top: 2.23px;
+                  position: absolute;
+                  border: 0.42px #0771de solid;
+                "
+              ></div>
+            </div>
+          </div>
+          <div
+            style="left: 0px; top: 0px; position: absolute; text-align: right"
+          >
+            <span
+              style="
+                color: black;
+                font-size: 9.8px;
+                font-family: Neo Sans Arabic;
+                font-weight: 400;
+                line-height: 14.7px;
+                word-wrap: break-word;
+              "
+              >كتالوج الشركة</span
+            ><span
+              style="
+                color: black;
+                font-size: 9.8px;
+                font-family: Inter;
+                font-weight: 500;
+                line-height: 14.7px;
+                word-wrap: break-word;
+              "
+              >.pdf</span
+            >
+          </div>
+          <div
+            style="
+              width: 45.4px;
+              height: 13px;
+              left: 29.7px;
+              top: 15.4px;
+              position: absolute;
+            "
+          >
+            <div
+              style="
+                left: 28.4px;
+                top: 0px;
+                position: absolute;
+                text-align: right;
+                color: rgba(0, 0, 0, 0.4);
+                font-size: 8.4px;
+                font-family: Inter;
+                font-weight: 500;
+                line-height: 12.6px;
+                word-wrap: break-word;
+              "
+            >
+              PDF
+            </div>
+            <div
+              style="
+                left: 0px;
+                top: 0px;
+                position: absolute;
+                text-align: right;
+                color: rgba(0, 0, 0, 0.4);
+                font-size: 8.4px;
+                font-family: Inter;
+                font-weight: 400;
+                line-height: 12.6px;
+                word-wrap: break-word;
+              "
+            >
+              9mb
+            </div>
+            <div
+              style="
+                left: 21.4px;
+                top: 0px;
+                position: absolute;
+                text-align: right;
+                color: rgba(0, 0, 0, 0.4);
+                font-size: 8.4px;
+                font-family: Inter;
+                font-weight: 600;
+                line-height: 12.6px;
+                word-wrap: break-word;
+              "
+            >
+              .
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div style="margin-top: 2rem; color: #fff; margin-right: -4rem">
+      <div class="day-work">
+        <div
+          style="
+            width: 19px;
+            height: 19px;
+            transform: rotate(180deg);
+            transform-origin: 0 0;
+            background: #f7f7fa;
+            border-radius: 2.38px;
+          "
+        >
+          <span
+            style="
+              transform: rotate(180deg);
+              color: #bbbec2;
+              margin-top: 0.2rem;
+            "
+          >
+            ج
+          </span>
+        </div>
+
+        <div
+          style="
+            width: 19px;
+            height: 19px;
+            transform: rotate(180deg);
+            transform-origin: 0 0;
+            background: #2385ea;
+            border-radius: 2.38px;
+            margin: 0 0.2rem;
+          "
+        >
+          <span style="transform: rotate(180deg); margin-top: 0.2rem"> خ </span>
+        </div>
+
+        <div
+          style="
+            width: 19px;
+            height: 19px;
+            transform: rotate(180deg);
+            transform-origin: 0 0;
+            background: #2385ea;
+            border-radius: 2.38px;
+            margin: 0 0.2rem;
+          "
+        >
+          <span style="transform: rotate(180deg); margin-top: 0.2rem"> ر </span>
+        </div>
+
+        <div
+          style="
+            width: 19px;
+            height: 19px;
+            transform: rotate(180deg);
+            transform-origin: 0 0;
+            background: #2385ea;
+            border-radius: 2.38px;
+            margin: 0 0.2rem;
+          "
+        >
+          <span style="transform: rotate(180deg); margin-top: 0.2rem"> ث </span>
+        </div>
+
+        <div
+          style="
+            width: 19px;
+            height: 19px;
+            transform: rotate(180deg);
+            transform-origin: 0 0;
+            background: #f7f7fa;
+            border-radius: 2.38px;
+            margin: 0 0.2rem;
+          "
+        >
+          <span
+            style="
+              transform: rotate(180deg);
+              color: #bbbec2;
+              margin-top: 0.2rem;
+            "
+          >
+            ن
+          </span>
+        </div>
+
+        <div
+          style="
+            width: 19px;
+            height: 19px;
+            transform: rotate(180deg);
+            transform-origin: 0 0;
+            background: #2385ea;
+            border-radius: 2.38px;
+            margin: 0 0.2rem;
+          "
+        >
+          <span style="transform: rotate(180deg); margin-top: 0.2rem"> ح </span>
+        </div>
+
+        <div
+          style="
+            width: 19px;
+            height: 19px;
+            transform: rotate(180deg);
+            transform-origin: 0 0;
+            background: #2385ea;
+            border-radius: 2.38px;
+            margin: 0 0.2rem;
+          "
+        >
+          <span style="transform: rotate(180deg); margin-top: 0.2rem"> س </span>
+        </div>
+      </div>
+    </div>
+
+    <div class="email">
+      {{ item.email }}
+    </div>
+
+    <div class="name">{{ item.name }}</div>
+
+    <div class="typography-id">{{ item.id }}</div>
+  </div>
+</div>

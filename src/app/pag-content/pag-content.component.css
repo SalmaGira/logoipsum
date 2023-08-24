@@ -1,0 +1,61 @@
+.main {
+  width: 100%;
+  margin-top: 1.15rem;
+  margin-bottom: 1rem;
+  display: grid;
+}
+
+.typography-pages {
+  color: var(--gray-gray-600, #7e8299);
+  text-align: center;
+  font-family: Inter;
+  font-size: 0.64888rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 0.64888rem; /* 100% */
+  letter-spacing: -0.0065rem;
+}
+
+.pages-container {
+  display: flex;
+  margin-top: 2rem;
+}
+
+.page-box {
+  margin: 0 0.8rem;
+}
+
+.records-num {
+  float: right;
+  text-align: right;
+  /* display: flex; */
+  margin-top: -1rem;
+}
+
+.typography-black {
+  color: #333;
+  font-family: Neo Sans Arabic;
+  font-size: 0.50469rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.num-box {
+  border-radius: 0.28838rem;
+  border: 0.577px solid #ddd;
+  background: #fff;
+
+  height: 1.51406rem;
+  padding: 0.28838rem 0.54075rem;
+  align-items: center;
+  gap: 0.28838rem;
+  align-self: stretch;
+  width: 2.52344rem;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.28838rem;
+  flex-shrink: 0;
+
+  margin: 0 0.3rem;
+}
