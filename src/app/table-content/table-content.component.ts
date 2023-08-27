@@ -67,4 +67,12 @@ export class TableContentComponent {
       src: '2',
     },
   ];
+
+  controlsItems = [
+    { title: 'id رقم ال' },
+    { title: 'الاسم الاول' },
+    { title: 'البريد الالكتروني' },
+    { title: 'ايام العمل' },
+    { title: 'الملفات' },
+  ];
 }

@@ -1,10 +1,22 @@
 <div class="main">
   <div class="pages-container typography-pages">
-    <img src="assets/icons/left-arrow.svg" class="page-box" />
-    <div *ngFor="let item of pages" class="page-box">
+    <img
+      src="assets/icons/left-arrow.svg"
+      class="page-box"
+      style="margin-top: -0.2rem"
+    />
+    <div
+      *ngFor="let item of pages"
+      class="page-box"
+      [class.selected-page]="item === 1"
+    >
       {{ item }}
     </div>
-    <img src="assets/icons/arrows.svg" class="page-box" />
+    <img
+      src="assets/icons/arrows.svg"
+      class="page-box"
+      style="margin-top: -0.2rem"
+    />
   </div>
 
   <div class="records-num typography-black">

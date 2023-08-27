@@ -1,5 +1,5 @@
 <div class="main">
-  <div class="col typography-gray">
+  <div class="header-col typography-black">
     <div class="setting-icon">
       <img
         src="assets/icons/setting-2-light.svg"
@@ -7,18 +7,20 @@
       />
     </div>
 
-    <div>ملفات</div>
+    <div class="name-header">ملفات</div>
 
-    <div>أيام العمل</div>
+    <div class="name-header">أيام العمل</div>
 
-    <div>البريد الالكتروني</div>
-
-    <div>
-      <img src="assets/icons/arrow-swap.svg" />
-      الاسم بالكامل
+    <div class="name-header" style="margin-right: 0.6rem">
+      البريد الالكتروني
     </div>
 
-    <div>id رقم ال</div>
+    <div class="name-header">
+      <span style="margin-right: 0.5rem"> الاسم بالكامل </span>
+      <img src="assets/icons/arrow-swap.svg" style="margin-right: 0.5rem" />
+    </div>
+
+    <div class="name-header">id رقم ال</div>
   </div>
 
   <div *ngFor="let item of colItems" class="col typography-black">
@@ -30,14 +32,14 @@
       <div style="width: 146.3px; height: 28.7px; position: relative">
         <img
           style="
-            width: 28px;
-            height: 28px;
+            width: 48px;
+            height: 48px;
             left: 118.3px;
             top: 0.7px;
             position: absolute;
             border-radius: 4.2px;
           "
-          src="https://via.placeholder.com/28x28"
+          src="assets/images/Rectangle 34624752.png"
         />
         <div
           style="left: 20.7px; top: 0px; position: absolute; text-align: right"
@@ -231,18 +233,19 @@
             height: 19px;
             transform: rotate(180deg);
             transform-origin: 0 0;
-            background: #f7f7fa;
+            background: #2385ea;
             border-radius: 2.38px;
+            margin: 0 0.2rem;
           "
         >
           <span
             style="
               transform: rotate(180deg);
-              color: #bbbec2;
               margin-top: 0.2rem;
+              margin-right: 0.2rem;
             "
           >
-            ج
+            س
           </span>
         </div>
 
@@ -257,35 +260,15 @@
             margin: 0 0.2rem;
           "
         >
-          <span style="transform: rotate(180deg); margin-top: 0.2rem"> خ </span>
-        </div>
-
-        <div
-          style="
-            width: 19px;
-            height: 19px;
-            transform: rotate(180deg);
-            transform-origin: 0 0;
-            background: #2385ea;
-            border-radius: 2.38px;
-            margin: 0 0.2rem;
-          "
-        >
-          <span style="transform: rotate(180deg); margin-top: 0.2rem"> ر </span>
-        </div>
-
-        <div
-          style="
-            width: 19px;
-            height: 19px;
-            transform: rotate(180deg);
-            transform-origin: 0 0;
-            background: #2385ea;
-            border-radius: 2.38px;
-            margin: 0 0.2rem;
-          "
-        >
-          <span style="transform: rotate(180deg); margin-top: 0.2rem"> ث </span>
+          <span
+            style="
+              transform: rotate(180deg);
+              margin-top: 0.2rem;
+              margin-right: 0.5rem;
+            "
+          >
+            ح
+          </span>
         </div>
 
         <div
@@ -304,6 +287,7 @@
               transform: rotate(180deg);
               color: #bbbec2;
               margin-top: 0.2rem;
+              margin-right: 0.5rem;
             "
           >
             ن
@@ -321,7 +305,15 @@
             margin: 0 0.2rem;
           "
         >
-          <span style="transform: rotate(180deg); margin-top: 0.2rem"> ح </span>
+          <span
+            style="
+              transform: rotate(180deg);
+              margin-top: 0.2rem;
+              margin-right: 0.5rem;
+            "
+          >
+            ث
+          </span>
         </div>
 
         <div
@@ -335,7 +327,59 @@
             margin: 0 0.2rem;
           "
         >
-          <span style="transform: rotate(180deg); margin-top: 0.2rem"> س </span>
+          <span
+            style="
+              transform: rotate(180deg);
+              margin-top: 0.2rem;
+              margin-right: 0.5rem;
+            "
+          >
+            ر
+          </span>
+        </div>
+
+        <div
+          style="
+            width: 19px;
+            height: 19px;
+            transform: rotate(180deg);
+            transform-origin: 0 0;
+            background: #2385ea;
+            border-radius: 2.38px;
+            margin: 0 0.2rem;
+          "
+        >
+          <span
+            style="
+              transform: rotate(180deg);
+              margin-top: 0.2rem;
+              margin-right: 0.5rem;
+            "
+          >
+            خ
+          </span>
+        </div>
+
+        <div
+          style="
+            width: 19px;
+            height: 19px;
+            transform: rotate(180deg);
+            transform-origin: 0 0;
+            background: #f7f7fa;
+            border-radius: 2.38px;
+          "
+        >
+          <span
+            style="
+              transform: rotate(180deg);
+              color: #bbbec2;
+              margin-top: 0.2rem;
+              margin-right: 0.5rem;
+            "
+          >
+            ج
+          </span>
         </div>
       </div>
     </div>
@@ -346,6 +390,29 @@
 
     <div class="name">{{ item.name }}</div>
 
-    <div class="typography-id">{{ item.id }}</div>
+    <div class="typography-id id">{{ item.id }}</div>
+  </div>
+
+  <div class="controls-box">
+    <div class="inner-box">
+      <div class="typography-black-2">التحكم في الجدول</div>
+      <br />
+      <div
+        *ngFor="let item of controlsItems"
+        class="col-controls"
+        style="display: block"
+      >
+        <img
+          src="assets/icons/tick-square.svg"
+          style="float: left; left: 0; margin-top: 0.3rem"
+        />
+
+        <div class="typography-gray-2">
+          {{ item.title }}
+        </div>
+
+        <img src="assets/icons/Vector-3.svg" class="checkbox-icon" />
+      </div>
+    </div>
   </div>
 </div>

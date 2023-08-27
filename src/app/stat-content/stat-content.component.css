@@ -82,10 +82,11 @@
   border-radius: 0.36325rem;
   border: 0.727px solid var(--stroke, #e7e7e7);
   background: var(--white, #fff);
-  padding: 1.5rem;
+  padding: 1.5rem 1.5rem 0 1.5rem;
   display: block;
   text-align: center;
   min-height: auto;
+  max-height: 15.98438rem;
   margin-bottom: 1rem;
 }
 
@@ -176,4 +177,14 @@
   line-height: normal;
   margin-top: 0.5rem;
   margin-bottom: 1.5rem;
+}
+
+.typography-employee {
+  color: #000;
+  font-family: Neo Sans Arabic;
+  font-size: 0.65625rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-right: -1.4rem;
 }
